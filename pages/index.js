@@ -125,5 +125,5 @@ function renderCart(data) {
 if (user.length > 0) {
     document.getElementById('auth').innerHTML = '<span class="logout">Logout</span>'
 } else {
-    document.getElementById('auth').innerHTML = '<a href="/login.html">Login</a>'
+    document.getElementById('auth').innerHTML = '<a href="./login.html">Login</a>'
 }
